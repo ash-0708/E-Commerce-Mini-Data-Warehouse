@@ -1,4 +1,4 @@
-# E-Commerce Mini Data Warehouse (MySQL)
+# E-Commerce Data Warehouse (MySQL)
 
 This project implements a mini SQL data warehouse with:
 - OLTP transactional schema
@@ -52,7 +52,7 @@ Execute scripts in this exact order:
 ## One-Command Run
 
 ```sql
-run_all.sql;
+SOURCE C:/Users/sande/ecommerce-data-warehouse/run_all.sql;
 ```
 
 ## One-Run in MySQL Workbench
@@ -60,12 +60,12 @@ run_all.sql;
 `run_all.sql` uses `SOURCE`, which is for mysql CLI.
 For MySQL Workbench query tab, run this file instead:
 
-run_all_workbench.sql`
+- `C:/Users/sande/ecommerce-data-warehouse/run_all_workbench.sql`
 
 ## Import Your Own CSV/Excel Data
 
 - Put CSV files in a folder, for example:
-  - `sample_data/csv`
+  - `C:/Users/sande/ecommerce-data-warehouse/sample_data/csv`
 - Required files:
   - `users.csv`
   - `products.csv`
@@ -77,7 +77,7 @@ run_all_workbench.sql`
 - Run:
 
 ```sql
-sample_data/import_from_csv.sql;
+SOURCE C:/Users/sande/ecommerce-data-warehouse/sample_data/import_from_csv.sql;
 ```
 
 Excel files (`.xlsx`) should be saved as CSV first.
