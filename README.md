@@ -65,7 +65,7 @@ run_all_workbench.sql`
 ## Import Your Own CSV/Excel Data
 
 - Put CSV files in a folder, for example:
-  - `C:/Users/sande/ecommerce-data-warehouse/sample_data/csv`
+  - `sample_data/csv`
 - Required files:
   - `users.csv`
   - `products.csv`
