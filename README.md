@@ -52,7 +52,7 @@ Execute scripts in this exact order:
 ## One-Command Run
 
 ```sql
-SOURCE C:/Users/sande/ecommerce-data-warehouse/run_all.sql;
+run_all.sql;
 ```
 
 ## One-Run in MySQL Workbench
@@ -60,7 +60,7 @@ SOURCE C:/Users/sande/ecommerce-data-warehouse/run_all.sql;
 `run_all.sql` uses `SOURCE`, which is for mysql CLI.
 For MySQL Workbench query tab, run this file instead:
 
-- `C:/Users/sande/ecommerce-data-warehouse/run_all_workbench.sql`
+run_all_workbench.sql`
 
 ## Import Your Own CSV/Excel Data
 
@@ -77,7 +77,7 @@ For MySQL Workbench query tab, run this file instead:
 - Run:
 
 ```sql
-SOURCE C:/Users/sande/ecommerce-data-warehouse/sample_data/import_from_csv.sql;
+sample_data/import_from_csv.sql;
 ```
 
 Excel files (`.xlsx`) should be saved as CSV first.
